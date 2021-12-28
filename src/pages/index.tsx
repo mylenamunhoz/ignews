@@ -1,10 +1,15 @@
-import styles from '../styles/home.module.scss'
+import Head from 'next/head'
+import { Fragment } from 'react'
 
 export default function Home() {
   return (
-    <h1 className={styles.title}>
-      Hello World
-    </h1>
+    <Fragment>
+      <Head>
+        <title>Início | ig.news</title>
+      </Head>
+      <h1>
+        Hello World
+      </h1>
+    </Fragment>
   )
 }
- 
