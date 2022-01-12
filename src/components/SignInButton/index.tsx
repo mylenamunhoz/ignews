@@ -17,8 +17,7 @@ export function SignInButton() {
       {session.user.name}
       <FiX color="#737380" className={styles.closeIcon}/>
     </button>
-  )
-  : (
+  ) : (
     <button 
     type="button"
     className={styles.signInButton}
