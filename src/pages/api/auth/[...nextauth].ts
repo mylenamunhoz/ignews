@@ -37,7 +37,7 @@ export default NextAuth({
               ),
               query.Match(
                 query.Index('subscription_by_status'),
-                "actibe"
+                "active"
               )
               ])
           )
